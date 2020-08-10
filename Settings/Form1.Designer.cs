@@ -129,7 +129,7 @@
             "20000"});
             this.comboBox1.Location = new System.Drawing.Point(3, 47);
             this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(183, 24);
+            this.comboBox1.Size = new System.Drawing.Size(217, 24);
             this.comboBox1.TabIndex = 0;
             this.comboBox1.Text = "Кол-во звёзд";
             this.comboBox1.SelectedIndexChanged += new System.EventHandler(this.comboBox1_SelectedIndexChanged);
@@ -163,7 +163,7 @@
             "Очень быстро"});
             this.comboBox2.Location = new System.Drawing.Point(226, 47);
             this.comboBox2.Name = "comboBox2";
-            this.comboBox2.Size = new System.Drawing.Size(185, 24);
+            this.comboBox2.Size = new System.Drawing.Size(218, 24);
             this.comboBox2.TabIndex = 3;
             this.comboBox2.Text = "Скорость отображения";
             this.comboBox2.SelectedIndexChanged += new System.EventHandler(this.comboBox2_SelectedIndexChanged);
@@ -212,7 +212,7 @@
             this.MaximumSize = new System.Drawing.Size(950, 550);
             this.MinimumSize = new System.Drawing.Size(450, 450);
             this.Name = "Form1";
-            this.Text = "Settings";
+            this.Text = "StarField";
             this.groupBox1.ResumeLayout(false);
             this.groupBox2.ResumeLayout(false);
             this.tableLayoutPanel2.ResumeLayout(false);

@@ -13,11 +13,11 @@ namespace StarField
     
     public partial class Form1 : Form
     {
-        public Form1(int starAmount, int changeSpeed, List<Brush> newBrushes)
+        public Form1(int starAmount, int changeSpeed, Brush [] newBrushes)
         {
             stars = new Star[starAmount];
             Speed = changeSpeed;
-            brushes = newBrushes.ToArray();
+            brushes = newBrushes;
             InitializeComponent();
         }
 

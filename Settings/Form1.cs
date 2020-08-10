@@ -98,7 +98,7 @@ namespace Settings
                 (
                 starAmountToSend,
                 changeSpeedToSend,
-                brushesToSend
+                brushesToSend.ToArray()
                 );
             brushesToSend.Clear();
             StarField.Show();
