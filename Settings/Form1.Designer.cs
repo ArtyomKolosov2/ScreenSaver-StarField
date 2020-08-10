@@ -59,7 +59,8 @@
             "Orange",
             "Aquamarine",
             "Blue",
-            "DeepSkyBlue"});
+            "DeepSkyBlue",
+            "BlueViolet"});
             this.checkedListBox1.Location = new System.Drawing.Point(6, 25);
             this.checkedListBox1.Name = "checkedListBox1";
             this.checkedListBox1.Size = new System.Drawing.Size(435, 359);

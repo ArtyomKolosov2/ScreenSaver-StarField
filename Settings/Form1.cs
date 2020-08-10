@@ -41,7 +41,8 @@ namespace Settings
             Brushes.Orange,
             Brushes.Aquamarine,
             Brushes.Blue,
-            Brushes.DeepSkyBlue
+            Brushes.DeepSkyBlue,
+            Brushes.BlueViolet
         };
 
         private Random random = new Random();
@@ -51,7 +52,7 @@ namespace Settings
         public Form1()
         {
             InitializeComponent();
-            brushesToSend = new List<Brush>();
+            brushesToSend = new List<Brush>(brushes.Length);
             starAmountToSend = StarAmount[random.Next(StarAmount.Length)];
             changeSpeedToSend = ChangeSpeed[random.Next(ChangeSpeed.Length)];
         }
