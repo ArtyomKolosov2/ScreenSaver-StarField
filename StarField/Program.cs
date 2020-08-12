@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace StarField
+namespace StartField
 {
     static class Program
     {

@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace StarField.Properties
+namespace SettingsStarField.Properties
 {
 
 

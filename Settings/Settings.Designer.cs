@@ -1,6 +1,6 @@
 ﻿namespace Settings
 {
-    partial class Form1
+    partial class Settings
     {
         /// <summary>
         /// Обязательная переменная конструктора.

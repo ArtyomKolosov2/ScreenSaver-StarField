@@ -2,12 +2,12 @@
 using System.Drawing;
 using System.Windows.Forms;
 
-namespace StarField
+namespace StartField
 {
 
-    public partial class Form1 : Form
+    public partial class StartField : Form
     {
-        public Form1(int starAmount, int changeSpeed, Brush [] newBrushes)
+        public StartField(int starAmount, int changeSpeed, Brush [] newBrushes)
         {
             stars = new Star[starAmount];
             Speed = changeSpeed;

@@ -1,6 +1,6 @@
-﻿namespace StarField
+﻿namespace StartField
 {
-    partial class Form1
+    partial class StartField
     {
         /// <summary>
         /// Обязательная переменная конструктора.

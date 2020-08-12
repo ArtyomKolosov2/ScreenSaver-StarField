@@ -1,17 +1,12 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
 using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
-using StarField;
+using Stars;
 
 namespace Settings
 {
-    public partial class Form1 : Form
+    public partial class Settings : Form
     {
         private int [] StarAmount = new int[] 
         { 
@@ -49,7 +44,7 @@ namespace Settings
         private List<Brush> brushesToSend;
         private int starAmountToSend;
         private int changeSpeedToSend;
-        public Form1()
+        public Settings()
         {
             InitializeComponent();
             brushesToSend = new List<Brush>(brushes.Length);
@@ -95,14 +90,14 @@ namespace Settings
                 }
             }
                 
-            StarField.Form1 StarField = new StarField.Form1
+            StartField startField = new StartField
                 (
                 starAmountToSend,
                 changeSpeedToSend,
                 brushesToSend.ToArray()
                 );
             brushesToSend.Clear();
-            StarField.Show();
+            startField.Show();
         }
 
     }
